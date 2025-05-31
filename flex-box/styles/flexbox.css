@@ -1,0 +1,34 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.flex-container{
+    border: 3px dashed darkcyan;
+    background-color: lightblue;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+
+.flex-item{
+    width: 250px;
+    margin: 1rem;
+	border: 1px solid rgb(0 0 0 / 20%);
+	padding: 0.5rem;
+	background-color: #bbb;
+	color: #333;
+}
+
+.item1{
+min-height: 100px;
+}
+
+.item2{
+min-height: 200px;
+}
+
+.item3{
+min-height: 300px;
+}
