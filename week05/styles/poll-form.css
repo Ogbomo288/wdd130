@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+header h1 {
+    color: rgb(0, 81, 255);
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 0.2rem; */
+    font-size: 1.5em;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    /* The below margin declaration centers the object */
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 2px dotted black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.562);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.3rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0.95rem;
+}
+
+fieldset legend {
+    color: rgb(0, 81, 255);
+    padding: 0.5rem;
+    font-size: 1em;
+}
+
+input,
+label,
+button,
+select,
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.3rem;
+    /* Note that the above padding is critical in order to 
+    provide spacing inside of the form input elements. */
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"]
+
+/* The above is the best practice CSS selector for checkbox */
+    {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* The above makes the border curve at the edges. */
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 150px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+footer {
+    margin: 0 auto;
+    width: 700px;
+    border-top: 1px solid black;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    /* The above makes the label take 3X more space
+     than the second column */
+    margin: 0.5rem 0;
+    /* padding: 0.2rem; */
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    /* The above gives the label half the space as the input area */
+    margin: 0.5rem 0;
+}
