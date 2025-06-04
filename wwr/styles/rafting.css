@@ -232,7 +232,7 @@ article {
 
 }
 
-form{
+form {
     width: 842px;
     margin: 0 auto;
     padding: 0.5rem;
@@ -253,7 +253,7 @@ fieldset {
 
 
 fieldset legend {
-    color:black;
+    color: black;
     padding: 0.5rem;
     font-size: 1em;
     margin: 0 auto;
@@ -281,6 +281,7 @@ textarea {
     provide spacing inside of the form input elements. */
     font-size: 1.1rem;
 }
+
 input[type="checkbox"]
 
 /* The above is the best practice CSS selector for checkbox */
@@ -289,6 +290,7 @@ input[type="checkbox"]
     height: 20px;
     vertical-align: bottom;
 }
+
 button {
     margin: 0 auto;
     background-color: black;
@@ -305,17 +307,17 @@ button {
 button:hover {
     background-color: grey;
 }
-input[type="radio"]
-{
+
+input[type="radio"] {
     width: 500px;
     height: 10px;
     align-self: center;
 }
-    
-.griding{
+
+.griding {
     display: grid;
     text-align: center;
-    
+
 }
 
 .column1 {
@@ -331,16 +333,18 @@ input[type="radio"]
     /* The above gives the label half the space as the input area */
     margin: 0.5rem 0;
 }
-.row{
+
+.row {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: 5px;
-    
+
 }
-.align{
+
+.align {
     margin: 0 auto;
 }
 
-.map{
+.map {
     border: 0;
 }
 
@@ -366,27 +370,29 @@ input[type="radio"]
     color: black;
 }
 
-.information{
+.information {
     max-width: 1000px;
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.562);
 
 }
-.information h1{
+
+.information h1 {
     color: black;
     text-align: center;
 }
 
 .information p {
-    
+
     color: black;
 }
-.map{
+
+.map {
     padding-left: 25px;
 }
 
-.moqup a{
+.moqup a {
     text-decoration: none;
     margin-right: 5px;
 }
