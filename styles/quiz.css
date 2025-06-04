@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+header h1 {
+    color: rgb(0, 81, 255);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0.2rem;
+    font-size: 1.5em;
+    text-align: center;
+}
+form{
+    width: 650px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.562);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.3rem;
+    margin: 0.5rem;
+    border: none;
+    /* The above removed the border around the pool */
+    padding: 0.95rem;
+}
+
+input,
+label,
+button,
+select,
+textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.3rem;
+    /* Note that the above padding is critical in order to 
+    provide spacing inside of the form input elements. */
+    font-size: 1.1rem;
+}
+select:hover{
+    background-color: grey;
+}
+
+button {
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    /* The above makes the border curve at the edges. */
+    padding: 0.5rem;
+    font-size: 20px;
+    width: 500px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: grey;
+}
+p {
+    background-color: black;
+    color: #fff;
+    padding: 13px;
+    font-size: small;
+    width: 450px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.griding{
+    display: grid;
+    text-align: center;
+}
+
+
+
+
