@@ -379,9 +379,14 @@ input[type="radio"]
 }
 
 .information p {
-    /* align-content: center; */
+    
     color: black;
 }
 .map{
     padding-left: 25px;
+}
+
+.moqup a{
+    text-decoration: none;
+    margin-right: 5px;
 }
