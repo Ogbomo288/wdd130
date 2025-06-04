@@ -394,5 +394,6 @@ input[type="radio"] {
 
 .moqup a {
     text-decoration: none;
-    margin-right: 5px;
+    /* margin-right: 5px; */
+
 }
